@@ -1,0 +1,143 @@
+/*-- robocze komentarze
+
+- walidator - html
+- buttony - stan active
+
+--*/
+:root {
+    --brand-color: #212121;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    color: var (--brand-color);
+}
+ul {
+    list-style-type: none;
+}
+.logo-color {
+    color: #2196f3;
+}
+
+.logo-header {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: #212121;
+}
+
+.pointer {
+    cursor: pointer;
+}
+.nav-links {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var (--brand-color);
+}
+
+.nav-links:hover {
+    color: #2196f3;
+}
+
+.contakct-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.contact-link:hover .contact-link:focus {
+    color: #2196f3;
+}
+
+.main-claim {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: #ffffff;
+    background-color: var(--brand-color);
+}
+
+.first-cta {
+    background: #2196f3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.article-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.article-text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.person-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.person-position {
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.address-text {
+    font-size: 14px;
+    line-height: 1.71;
+
+    letter-spacing: 0.03em;
+    background-color: var (--brand-color);
+    color: #ffffff;
+}
+/*-- tu przerwa --*/
+
+.product-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: left;
+    letter-spacing: 0.03em;
+}
+
+.product-field {
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: left;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
