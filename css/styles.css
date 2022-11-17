@@ -14,21 +14,18 @@ ul {
 
 .logo-header {
     font-family: "Raleway";
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     text-decoration: none;
-    color: #212121;
+    color: var(--brand-color);
 }
 
 .pointer {
     cursor: pointer;
 }
 .nav-links {
-    font-family: "Roboto";
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -42,8 +39,6 @@ ul {
 }
 
 .contact-link {
-    font-family: "Roboto";
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -60,8 +55,6 @@ ul {
 }
 
 .main-claim {
-    font-family: "Roboto";
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -81,8 +74,6 @@ ul {
     width: 200px;
     height: 50px;
 
-    font-family: "Roboto";
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -168,7 +159,7 @@ ul {
     height: 38px;
 
     font-family: "Roboto";
-    font-style: normal;
+
     font-weight: 500;
     font-size: 16px;
     line-height: 1, 62;
@@ -187,7 +178,7 @@ ul {
     border-color: #2196f3;
 
     font-family: "Roboto";
-    font-style: normal;
+
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
